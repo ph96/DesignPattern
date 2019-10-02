@@ -6,13 +6,13 @@ public class FactoryPattern {
         if(shapeName == null || shapeName.equals("")){
             return null;
         }
-        if(shapeName.equalsIgnoreCase("Rectangle")){
+        if(shapeName.equalsIgnoreCase("RECTANGLE")){
             return new Rectangle();
         }
-        if(shapeName.equalsIgnoreCase("Square")){
+        if(shapeName.equalsIgnoreCase("SQUARE")){
             return new Square();
         }
-        if(shapeName.equalsIgnoreCase("Triangle")){
+        if(shapeName.equalsIgnoreCase("TRIANGLE")){
             return new Triangle();
         }
         return null;
